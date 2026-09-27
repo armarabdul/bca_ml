@@ -1,0 +1,411 @@
+Assignmnt
+
+Yes. Since you have 48 students, dividing them into 24 teams of 2 is perfect.
+I would make the assignment code-oriented, but ensure that all four units are represented. Each team gets a different problem statement, and students should implement it using Python + appropriate ML libraries, explain the algorithm, show output, and give a short conclusion.
+BCA Semester V – Machine Learning
+Group Assignment – 24 Teams
+Total Students: 48 Team Size: 2 students Total Teams: 24 Teams: 1–24
+General instructions for every team
+Each team should:
+	1.	Understand the given problem.
+	2.	Find/create a suitable dataset.
+	3.	Implement the solution using Python.
+	4.	Use appropriate libraries such as NumPy, Pandas, Matplotlib, Seaborn, and Scikit-learn.
+	5.	Display suitable results/graphs.
+	6.	Explain the algorithm used.
+	7.	Submit:
+	•	Python source code
+	•	Dataset
+	•	Short report
+	•	Output/screenshots
+	8.	Each team member should be able to explain the complete program during evaluation.
+ 
+⸻
+ 
+UNIT I – Introduction & Supervised Learning
+Team 1 – Student Performance Prediction
+Problem Statement: Develop a machine learning model to predict whether a student will Pass or Fail based on features such as attendance, study hours, previous marks, and assignment scores.
+Requirements:
+	•	Prepare/load a dataset.
+	•	Perform preprocessing.
+	•	Train a classification model.
+	•	Predict Pass/Fail.
+	•	Calculate accuracy, precision, recall and F1-score.
+	•	Display a confusion matrix.
+Topics: Supervised Learning, Classification, Model Evaluation.
+ 
+⸻
+ 
+Team 2 – House Price Prediction
+Problem Statement: Develop a machine learning model to predict the price of a house based on area, number of bedrooms, bathrooms, location-related numerical features, and age of the house.
+Requirements:
+	•	Perform data preprocessing.
+	•	Train a regression model.
+	•	Predict prices for test data.
+	•	Calculate MAE and MSE.
+	•	Plot actual price vs predicted price.
+Topics: Regression, Supervised Learning.
+ 
+⸻
+ 
+Team 3 – Classification of Iris Flowers
+Problem Statement: Using the Iris dataset, develop a supervised machine learning model to classify flowers into Setosa, Versicolor, and Virginica.
+Requirements:
+	•	Use suitable classification algorithm.
+	•	Split the dataset into training and testing sets.
+	•	Predict all three classes.
+	•	Calculate accuracy, precision and recall.
+	•	Display the confusion matrix.
+Topics: Learning Multiple Classes, Classification.
+ 
+⸻
+ 
+Team 4 – Effect of Noise on Machine Learning
+Problem Statement: Study how adding noise to a dataset affects the performance of a supervised machine learning classifier.
+Requirements:
+	•	Use a suitable classification dataset.
+	•	Train the model on the original dataset.
+	•	Add different levels of noise.
+	•	Train/test the model again.
+	•	Compare accuracy for different noise levels.
+	•	Display the comparison using a graph.
+Topics: Noise, Supervised Learning, Model Performance.
+ 
+⸻
+ 
+Team 5 – Model Selection and Generalization
+Problem Statement: Compare different machine learning models for the same classification problem and study which model generalizes better to unseen data.
+Requirements:
+	•	Select a suitable classification dataset.
+	•	Train at least three models.
+	•	Calculate training and testing accuracy.
+	•	Compare the results.
+	•	Identify signs of overfitting/underfitting.
+Topics: Model Selection, Generalization.
+ 
+⸻
+ 
+Team 6 – Dimensions of a Supervised Learning Algorithm
+Problem Statement: Study the important dimensions of a supervised machine learning algorithm by implementing two different classification algorithms on the same dataset.
+Requirements:
+	•	Select one classification dataset.
+	•	Implement two classifiers.
+	•	Compare:
+	•	Training data
+	•	Features
+	•	Target/classes
+	•	Model assumptions
+	•	Training/testing performance
+	•	Present the comparison using a table and graph.
+Topics: Dimensions of a Supervised ML Algorithm.
+ 
+⸻
+ 
+UNIT II – Bayesian Decision Theory
+Team 7 – Naive Bayes Document Classification
+Problem Statement: Develop a Naive Bayes classifier to classify text documents into two categories such as Positive/Negative or Sports/Technology.
+Requirements:
+	•	Create/use a text dataset.
+	•	Convert text into numerical features using CountVectorizer.
+	•	Use MultinomialNB.
+	•	Calculate:
+	•	Accuracy
+	•	Precision
+	•	Recall
+	•	F1-score
+	•	Display the confusion matrix.
+Topics: Bayesian Classification, Naive Bayes.
+This is a particularly good practical because it directly matches the document-classification practical in your syllabus.
+ 
+⸻
+ 
+Team 8 – Gaussian Naive Bayes Classification
+Problem Statement: Use Gaussian Naive Bayes to classify a numerical dataset into different classes.
+Requirements:
+	•	Select a numerical dataset.
+	•	Apply GaussianNB.
+	•	Split the data.
+	•	Train and test the model.
+	•	Calculate accuracy, precision and recall.
+	•	Display the confusion matrix.
+Topics: Bayesian Classification, Gaussian Naive Bayes.
+ 
+⸻
+ 
+Team 9 – Bayesian Decision Making Using Loss and Risk
+Problem Statement: Develop a simple Python program that uses loss values and probabilities to calculate expected risk for different decisions and select the decision with minimum risk.
+Example: A system must decide whether a customer is:
+Normal
+OR
+High Risk
+Different wrong decisions have different costs.
+Requirements:
+	•	Define possible states.
+	•	Define actions.
+	•	Assign loss values.
+	•	Calculate expected risk.
+	•	Select the decision with minimum risk.
+Topics: Losses, Risks, Bayesian Decision Theory.
+ 
+⸻
+ 
+Team 10 – Bayesian Network for Disease Prediction
+Problem Statement: Construct a simple Bayesian Network for disease prediction using variables such as:
+Disease
+Fever
+Cough
+Fatigue
+Requirements:
+	•	Construct the network.
+	•	Define conditional probabilities.
+	•	Enter observed symptoms.
+	•	Calculate/update the probability of disease.
+	•	Display the network graphically.
+	•	Explain the inference process.
+Topics: Bayesian Networks, Conditional Probability.
+ 
+⸻
+ 
+Team 11 – Influence Diagram for Medical Treatment
+Problem Statement: Develop a simple Influence Diagram for selecting between two medical treatments based on disease probability and treatment outcomes.
+Use:
+Chance Node → Disease
+Decision Node → Treatment
+Utility Node → Patient Outcome
+Requirements:
+	•	Define chance, decision and utility nodes.
+	•	Assign probabilities.
+	•	Assign utility values.
+	•	Calculate expected utility.
+	•	Select the action having the maximum expected utility.
+Topics: Influence Diagrams, Utility Theory.
+ 
+⸻
+ 
+Team 12 – Association Rule Mining
+Problem Statement: Perform Market Basket Analysis on a supermarket transaction dataset and discover frequently purchased item combinations.
+Requirements:
+	•	Use a transaction dataset.
+	•	Find association rules.
+	•	Calculate:
+	•	Support
+	•	Confidence
+	•	Lift
+	•	Identify interesting rules.
+	•	Display the results in a table.
+Topics: Association Rules, Support, Confidence, Lift.
+ 
+⸻
+ 
+UNIT III – Parametric Methods
+Team 13 – Maximum Likelihood Estimation
+Problem Statement: Implement a Python program to demonstrate Maximum Likelihood Estimation (MLE) for estimating the parameters of a simple probability distribution.
+Requirements:
+	•	Generate or use sample data.
+	•	Estimate the distribution parameter using MLE.
+	•	Compare the estimated value with the actual parameter.
+	•	Display the result graphically.
+Topics: Maximum Likelihood Estimation.
+ 
+⸻
+ 
+Team 14 – Bias and Variance
+Problem Statement: Demonstrate the difference between bias and variance using machine learning models of different complexity.
+Requirements:
+	•	Create/use a suitable dataset.
+	•	Train models with different complexity.
+	•	Calculate training and testing errors.
+	•	Show an example of underfitting and overfitting.
+	•	Plot model complexity against error.
+Topics: Bias, Variance, Generalization.
+ 
+⸻
+ 
+Team 15 – Parametric Classification
+Problem Statement: Implement a parametric classification model on a suitable dataset and study how the estimated parameters are used for classification.
+Requirements:
+	•	Select a suitable dataset.
+	•	Perform preprocessing.
+	•	Train a parametric classifier.
+	•	Predict classes.
+	•	Calculate accuracy, precision and recall.
+	•	Explain the parameters used by the model.
+Topics: Parametric Classification.
+ 
+⸻
+ 
+Team 16 – Parametric Regression
+Problem Statement: Develop a parametric regression model to predict a continuous value such as house price, salary, temperature, or sales.
+Requirements:
+	•	Prepare the dataset.
+	•	Train the regression model.
+	•	Predict values.
+	•	Calculate MAE, MSE and RMSE.
+	•	Plot actual vs predicted values.
+Topics: Parametric Regression.
+ 
+⸻
+ 
+Team 17 – Bias-Variance Dilemma
+Problem Statement: Study the Bias-Variance Dilemma by training models with increasing complexity and identifying when the model starts overfitting.
+Requirements:
+	•	Use polynomial regression or another model whose complexity can be changed.
+	•	Train models with different complexity levels.
+	•	Calculate training and testing errors.
+	•	Plot the errors against model complexity.
+	•	Explain the bias-variance relationship.
+Topics: Tuning Model Complexity, Bias-Variance Dilemma.
+ 
+⸻
+ 
+Team 18 – Model Selection Procedure
+Problem Statement: Compare multiple machine learning models and select an appropriate model using a model selection procedure.
+Requirements:
+	•	Select a dataset.
+	•	Train at least three models.
+	•	Use cross-validation.
+	•	Compare their performance.
+	•	Report mean cross-validation score.
+	•	Explain the selection process.
+Topics: Model Selection Procedures.
+ 
+⸻
+ 
+UNIT IV – Multivariate Methods, Dimensionality Reduction & Clustering
+Team 19 – Multivariate Classification
+Problem Statement: Develop a classification model using multiple features simultaneously to predict the class of an observation.
+Requirements:
+	•	Select a dataset with multiple features.
+	•	Perform preprocessing.
+	•	Train a classifier.
+	•	Test the model.
+	•	Calculate accuracy, precision and recall.
+	•	Identify the importance/effect of multiple features.
+Topics: Multivariate Data, Multivariate Classification.
+ 
+⸻
+ 
+Team 20 – Missing Value Estimation
+Problem Statement: Develop a Python program to handle a dataset containing missing values and compare different methods of estimating/replacing the missing values.
+Requirements:
+	•	Introduce or use missing values.
+	•	Compare at least two methods such as:
+	•	Mean
+	•	Median
+	•	Most frequent
+	•	Train a machine learning model after handling missing values.
+	•	Compare model performance.
+Topics: Estimation of Missing Values, Multivariate Methods.
+ 
+⸻
+ 
+Team 21 – Principal Component Analysis (PCA)
+Problem Statement: Apply Principal Component Analysis (PCA) to reduce the number of features in a dataset while retaining as much information as possible.
+Requirements:
+	•	Load a multivariate dataset.
+	•	Standardize the features.
+	•	Apply PCA.
+	•	Reduce the dataset to 2 or 3 principal components.
+	•	Plot the transformed data.
+	•	Explain the percentage of variance retained.
+Topics: Dimensionality Reduction, PCA.
+ 
+⸻
+ 
+Team 22 – Linear Discriminant Analysis
+Problem Statement: Use Linear Discriminant Analysis (LDA) for dimensionality reduction and classification.
+Requirements:
+	•	Select a classification dataset.
+	•	Apply LDA.
+	•	Reduce the dimensionality.
+	•	Visualize the transformed data.
+	•	Train a classifier.
+	•	Compare classification performance before and after dimensionality reduction.
+Topics: Linear Discriminant Analysis, Dimensionality Reduction.
+ 
+⸻
+ 
+Team 23 – K-Means Clustering
+Problem Statement: Use the K-Means clustering algorithm to group customers into different groups based on features such as annual income and spending score.
+Requirements:
+	•	Load/create a customer dataset.
+	•	Apply K-Means.
+	•	Try different values of K.
+	•	Use the Elbow Method to select K.
+	•	Visualize the clusters.
+	•	Describe each cluster.
+Topics: Clustering, K-Means, Choosing Number of Clusters.
+ 
+⸻
+ 
+Team 24 – Hierarchical Clustering
+Problem Statement: Apply Hierarchical Clustering to group similar data points and visualize the resulting hierarchy.
+Requirements:
+	•	Select a suitable dataset.
+	•	Apply hierarchical clustering.
+	•	Generate a dendrogram.
+	•	Select an appropriate number of clusters.
+	•	Visualize the final clusters.
+	•	Compare the result with K-Means.
+Topics: Hierarchical Clustering, Choosing Number of Clusters.
+ 
+⸻
+
+Team 25 – Factor Analysis
+
+Problem Statement:
+Develop a Python program to apply Factor Analysis on a multivariate dataset and identify the underlying factors that explain relationships among the observed variables.
+
+Requirements:
+
+	1.	Select a suitable dataset containing multiple related features.
+	2.	Load and preprocess the dataset using Pandas.
+	3.	Standardize the numerical features.
+	4.	Apply Factor Analysis using Scikit-learn.
+	5.	Extract a suitable number of factors.
+	6.	Display the factor loadings.
+	7.	Identify which original features are strongly associated with each factor.
+	8.	Visualize the factor scores where appropriate.
+	9.	Explain what each extracted factor represents.
+
+Topics Covered:
+
+	•	Multivariate Data
+	•	Parameter Estimation
+	•	Factor Analysis
+	•	Dimensionality Reduction
+
+Expected output:
+The students should show the original features → extracted factors → factor loadings → interpretation of the factors. 
+Final Distribution
+Team	Unit	Assignment
+1	I	Student Performance Prediction
+2	I	House Price Prediction
+3	I	Iris Multi-Class Classification
+4	I	Effect of Noise
+5	I	Model Selection & Generalization
+6	I	Dimensions of Supervised ML
+7	II	Multinomial Naive Bayes
+8	II	Gaussian Naive Bayes
+9	II	Loss & Risk Decision System
+10	II	Bayesian Network
+11	II	Influence Diagram
+12	II	Association Rule Mining
+13	III	Maximum Likelihood Estimation
+14	III	Bias & Variance
+15	III	Parametric Classification
+16	III	Parametric Regression
+17	III	Bias-Variance Dilemma
+18	III	Model Selection Procedure
+19	IV	Multivariate Classification
+20	IV	Missing Value Estimation
+21	IV	PCA
+22	IV	LDA
+23	IV	K-Means Clustering
+24	IV	Hierarchical Clustering
+25	IV	Factor analysis
+One important suggestion
+I would not make every team use the same dataset. Give them the problem statement, but allow them to find an appropriate dataset from sources such as Kaggle/UCI or create a small dataset where appropriate. This will make the assignments genuinely different and reduce copying.
+For the more mathematical topics such as MLE, Bias/Variance, Loss/Risk and Influence Diagrams, keep the datasets small and the programs simple. The goal should be that both students understand the concept and can explain their code, rather than simply downloading a large project from GitHub.
+The 24 problems collectively cover the major topics in your four-unit syllabus, including the specific Unit II topics from the Class 3 material such as Bayesian Networks, Influence Diagrams, and Association Rules. 
+Bayesian Decision Theory - Unit II Class 3.pdf
